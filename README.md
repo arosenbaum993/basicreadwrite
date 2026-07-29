@@ -11,6 +11,16 @@ Full-year dashboard for Basic Reading/Writing I-IV. The first screen is the curr
 
 ## GitHub Pages
 
-The published site lives in `docs/index.html` and is deployed by `.github/workflows/deploy-pages.yml`.
+The published site lives in `docs/index.html`.
 
-In GitHub, set **Settings > Pages > Source** to **GitHub Actions**. After that, the workflow can publish the dashboard from the `main` branch.
+To publish it:
+
+1. Open this repository on GitHub.
+2. Go to **Settings > Pages**.
+3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+4. Set **Branch** to `main` and the folder to `/docs`.
+5. Click **Save**.
+
+GitHub will publish the dashboard at:
+
+`https://arosenbaum993.github.io/basicreadwrite/`
